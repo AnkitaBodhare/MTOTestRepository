@@ -10,6 +10,10 @@ namespace TestApplication
     {
         static void Main(string[] args)
         {
+
+
+            int code = System.Convert.ToInt32("");
+
             string logFileName = @"C:\Users\ankita.bodhare\AppData\Roaming\MobilityTool\log\PDFConversionLog.txt";
             int fileSize=File.ReadAllBytes(logFileName).Length;
                     //Log("Size of file " + this.logFileName + "is " + fileSize.ToString());
@@ -19,6 +23,14 @@ namespace TestApplication
                 File.Move(logFileName, oldFileName);//Rename the existing file
             }
 
+            //Test comments for git
+
+
+        }
+
+        public void SampleFunction()
+        {
+            return;
         }
     }
 }
